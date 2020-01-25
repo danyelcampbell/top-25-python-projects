@@ -1,6 +1,8 @@
 # Top 25 Python Projects
 This application will show the top 25 starred python projects on github on a basic tkinter GUI.
 
+![25-top-python-projects](https://user-images.githubusercontent.com/19388990/73126639-f956d980-3f7a-11ea-91ea-9ad09020effe.png)
+
 ### Prerequisites
 * python3
 * tkinter
