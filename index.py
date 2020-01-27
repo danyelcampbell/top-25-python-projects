@@ -8,8 +8,6 @@ import webbrowser
 import tkinter as tk
 from tkinter import Tk, ttk, Button, Text, LabelFrame
 from tkinter import *
-from tkinter.ttk import Progressbar
-
 
 def populateView():
     #get data from Github using API
@@ -41,7 +39,7 @@ def populateView():
     connection.cursor.close()
     connection.db.close()
 
-#create tk winder
+#create tk window
 window = tk.Tk()
 window.title("Top 25 Most Starred Python Projects On Github")
 window.geometry('800x600+0+0')
