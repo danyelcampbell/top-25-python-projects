@@ -1,5 +1,6 @@
 import sqlite3
 
+
 def Database():
     global db, cursor
     #exception handling to know whether or not the query executed successfully or not
@@ -12,4 +13,4 @@ def Database():
     except Exception as E:
         print('Error: ', E)
     else:
-        print('table created')
+        print('table created successfully')
